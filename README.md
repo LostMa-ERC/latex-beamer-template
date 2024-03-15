@@ -3,9 +3,9 @@
 This repository contains a Beamer template for presentations given as part of the LostMa project.
 
 ## Download
-To use the template, download the files in the `src/` folder. Unless you want to contribute to the template, it's best if you do not `git clone` the repository, especially if your presentation is in a folder already with a git history. Instead, download only the `src/` folder by clicking on this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FLostMa-ERC%2Flatex-beamer-template%2Ftree%2Fmain%2Fsrc) from [download-directory.github.io](https://download-directory.github.io). This will download a compressed file containing to your computer's regular downloads folder. Except for Windows, computers will have the downloads folder at `~/Downloads` if its language is English (or `~/Téléchargements` if French).
+To use the template, download the files in the `src/` folder. Unless you want to contribute to the template, it's best if you do not `git clone` the repository, especially if your presentation is in a folder already with a git history. Instead, download only the `src/` folder by clicking on this [link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FLostMa-ERC%2Flatex-beamer-template%2Ftree%2Fmain%2Fsrc). Using [download-directory.github.io](https://download-directory.github.io), this will download a compressed file to your computer's regular downloads folder.
 
-Finally, move (`mv`) the downloaded file, then decompress (`unzip`) it.
+Finally, move (`mv`) the downloaded file, then decompress (`unzip`) it. Except for Windows, computers will have the downloads folder at `~/Downloads` if the computer's language is English (or `~/Téléchargements` if French).
 
 ```shell
 $ mv ~/Downloads/LostMa-ERC\ latex-beamer-template\ main\ src.zip ./download.zip
