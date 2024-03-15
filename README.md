@@ -33,6 +33,8 @@ To get started modify the [`main.tex`](src/main.text) file in your downloaded `t
 }
 ```
 
+![title page](docs/title.png)
+
 ---
 
 2. Add sections to your presentation using LaTeX's `\section{}` and `\input{}` commands. The former gives a name to the section and the latter points to the LaTeX file within the template's sub-directory `sections`, which will contain the actual content of the section's slides.
@@ -42,6 +44,8 @@ To get started modify the [`main.tex`](src/main.text) file in your downloaded `t
 \section{Section 1}
 \input{sections/first}
 ```
+
+![outline](docs/outline.png)
 
 ---
 
@@ -53,6 +57,8 @@ To get started modify the [`main.tex`](src/main.text) file in your downloaded `t
     \lipsum[1]
 \end{frame}
 ```
+
+![section](docs/section.png)
 
 ---
 
