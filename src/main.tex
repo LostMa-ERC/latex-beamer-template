@@ -1,0 +1,42 @@
+\documentclass{beamer}
+\input{FrontMatter/preamble.tex}
+\usetheme{ENC-ERC}
+
+%%% Modify the presentation's bibliographic details
+\title{Title}
+\subtitle{Subtite}
+\date{Date}
+\author[Firstname Lastname]{Name}
+\institute[ENC]
+{
+  LostMa\\
+  École nationale des chartes
+}
+
+
+%%% Start of the presentation's content
+\begin{document}
+
+
+\frame{\titlepage}
+
+
+\AtBeginSection[]
+{
+ \begin{frame}[noframenumbering,plain]{Outline}
+    \tableofcontents[currentsection, sectionstyle=show/shaded, subsectionstyle=show/shaded/hide]
+ \end{frame} 
+}
+
+\AtBeginSubsection[]
+{
+ \begin{frame}[noframenumbering,plain]{Outline}
+    \tableofcontents[currentsection, sectionstyle=show/shaded, currentsubsection, subsectionstyle=show/shaded]
+    
+ \end{frame} 
+}
+
+\section{Section 1}
+\input{sections/first}
+
+\end{document}
